@@ -17,6 +17,18 @@ macOS 13 (Ventura) ou plus récent.
 
 ## Installer
 
+### Le plus simple : une commande (aucun avertissement de macOS)
+
+Ouvrez l'app **Terminal** (dans Applications › Utilitaires), collez cette ligne puis appuyez sur Entrée :
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/abdelaliikhelef-ai/calepin-mac/main/install-mac.sh | bash
+```
+
+Elle télécharge la bonne version pour votre Mac, l'installe dans Applications et l'ouvre.
+
+### Ou avec le fichier .dmg
+
 1. Ouvrez le fichier `.dmg` téléchargé.
 2. Glissez l'icône **Calepin** sur le dossier **Applications**.
 3. Ouvrez Calepin depuis le dossier Applications.
@@ -34,6 +46,6 @@ Calepin s'ouvre ensuite normalement, sans avertissement.
 
 ## Mettre à jour
 
-Revenez sur la [page de téléchargement](../../releases/latest), téléchargez la nouvelle version et remplacez l'application dans Applications. Vos chantiers (fichiers `.calepin`) et vos réglages sont conservés.
+Depuis la version 0.1.8, Calepin se met à jour tout seul : **Calepin › Rechercher les mises à jour…**, puis **Installer et redémarrer**. Il vérifie aussi au lancement (une fois par jour) et affiche un petit bandeau quand une nouvelle version est prête. Vos chantiers (fichiers `.calepin`) et vos réglages sont conservés.
 
-> Le menu « Rechercher les mises à jour… » de l'application ne fonctionne pas avec cette version téléchargée : passez par cette page.
+> Vous avez la version 0.1.7 ? Installez une fois la dernière version ci-dessus : les suivantes arriveront dans l'app.
